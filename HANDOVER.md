@@ -2,10 +2,10 @@
 
 ## Context
 - **Display name**: Dirty Gobbler (folder: DirtyGobbler — do not rename)
-- **Parent project**: Gobbler at `/home/Phil/projects/Predigester/` — do not modify that project
+- **Parent project**: Gobbler at `/home/[user]/projects/Predigester/` — do not modify that project
 - **Platform**: Fedora 43 KDE Plasma
 - **Tools**: Python 3.13, Flask, MarkItDown, requests + BeautifulSoup + markdownify
-- **Environment**: Virtual environment at `/home/Phil/projects/DirtyGobbler/.venv`
+- **Environment**: Virtual environment at `/home/[user]/projects/DirtyGobbler/.venv`
 - **Runs at**: http://127.0.0.1:5000/
 
 ## What is Dirty Gobbler?
@@ -30,7 +30,7 @@ launch.sh           KDE launcher: starts Flask if not running, opens browser
 requirements.txt    All direct deps (Flask, markitdown, pytesseract, Pillow, requests, bs4, markdownify)
 ```
 
-**Saving**: Output written to `/home/Phil/Downloads/DirtyGobbler/` as `.md` files.
+**Saving**: Output written to `/home/[user]/Downloads/DirtyGobbler/` as `.md` files.
 
 ## Key Technical Decisions
 - **URL fetching**: `requests.get()` with a browser-like User-Agent, 15s timeout. Response HTML converted to Markdown via `markdownify(html, heading_style="ATX")`. Single page only — no depth, no crawling.
@@ -51,7 +51,7 @@ requirements.txt    All direct deps (Flask, markitdown, pytesseract, Pillow, req
 
 ## Instructions for New Chat
 1. Read this file before doing anything.
-2. Do NOT modify the original Gobbler project at `/home/Phil/projects/Predigester/`.
+2. Do NOT modify the original Gobbler project at `/home/[user]/projects/Predigester/`.
 3. Present a plan and wait for approval before writing any code on non-trivial changes.
 4. Do not rename files or folders — only display strings.
 5. Do not add features, comments, or error handling beyond what is asked.
