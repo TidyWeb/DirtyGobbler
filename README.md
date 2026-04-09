@@ -9,7 +9,7 @@ DG will eat most things - even handwritten guff (within the limitations of Tesse
 Lightweight local desktop app that converts documents and websites into clean Markdown for LLM context windows.
 No cloud. No headless browser. Everything runs on your machine.
 
-Dirty Gobbler is a stripped-down variant of [Gobbler](../Predigester/) — single-page URL fetching only, with a much smaller dependency footprint.
+Dirty Gobbler is a stripped-down variant of Gobbler (full version, not yet published) — single-page URL fetching only, with a much smaller dependency footprint.
 
 ## Supported input formats
 
@@ -41,7 +41,7 @@ Dirty Gobbler is a stripped-down variant of [Gobbler](../Predigester/) — singl
 ## Running
 
 ```bash
-cd /home/Phil/projects/DirtyGobbler
+cd DirtyGobbler
 source .venv/bin/activate
 python app.py
 ```
